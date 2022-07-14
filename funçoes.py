@@ -38,7 +38,6 @@ def validar_Cpf():
             cpf = ' '.join(filter(str.isalnum, cpf))
             cpf = cpf.split()
 
-
         while cont < 9:
             totala = totala + int(cpf[a]) * b
             a += 1
